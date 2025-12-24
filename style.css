@@ -92,6 +92,76 @@ body {
   z-index: 999;
 }
 
+/* ===== PROVA SOCIAL ===== */
+.prova {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(180deg, #07070a, #0c0c12);
+}
+
+.prova h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.prova p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #bdbdbd;
+  font-size: 1rem;
+}
+
+.prova-img img {
+  max-width: 90%;
+  width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255, 165, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+.prova .selo {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #e50914;
+  opacity: 0.9;
+}
+
+/* ===== MODAL IMAGEM ===== */
+.modal-img {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-img img {
+  max-width: 95%;
+  max-height: 90%;
+  border-radius: 12px;
+}
+
+.modal-img .fechar {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 36px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Cursor indicando que a imagem é clicável */
+.prova-img img {
+  cursor: zoom-in;
+}
+
+
+
 /* MOBILE */
 @media (max-width: 768px) {
   .hero h1 {
