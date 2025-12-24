@@ -26,3 +26,18 @@ function abrirImagem(src) {
 function fecharImagem() {
   document.getElementById("modalImagem").style.display = "none";
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const video = document.querySelector(".proof-video video");
+
+  if (video) {
+    video.addEventListener("play", function () {
+      console.log("Vídeo de prova foi iniciado");
+
+      // Exemplo de pixel
+      if (typeof fbq === "function") {
+        fbq('trackCustom', 'PlayVideoProva');
+      }
+    });
+  }
+});

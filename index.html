@@ -9,24 +9,47 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="loja.png">
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-91X132K12T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-91X132K12T');
-</script>
+  <!-- META PIXEL (troque o ID) -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1385787813261040');
+  fbq('track', 'PageView');
+  </script>
 </head>
 
 <body>
 
   <!-- HERO -->
   <section class="hero">
-    <h1>Conteúdo educacional sobre<br><span>mentalidade, ação e investimentos.</span></h1>
+    <h1>Vídeos Aulas + Cursos e Livros Oficiais<br><span>Valor proprío Pablo Marçal de R$20 Mil Reais.</span></h1>
     <p>Materiais de estudo focados em clareza mental, disciplina e desenvolvimento pessoal.<br></span>Aulas com Pablo Marçal</p>
   </section>
+
+  <!-- PROVA DE VALOR - VÍDEO -->
+<section class="proof-video">
+  <h2>⚠️ Prova Real do Valor do Curso</h2>
+  <p>
+    No próprio vídeo, Pablo Marçal afirma que o curso custa
+    <strong>R$ 20.000,00</strong>.
+  </p>
+
+  <video controls playsinline preload="metadata" poster="tumb.png">
+    <source src="video.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos.
+  </video>
+
+  <span class="legend">
+    🎥 Trecho público de palestra — usado apenas como prova informativa
+  </span>
+</section>
+
 
   <!-- LIVROS -->
   <section id="livros" class="livros">
@@ -113,4 +136,3 @@
 
 </body>
 </html>
-

@@ -160,6 +160,38 @@ body {
   cursor: zoom-in;
 }
 
+.proof-video {
+  background: #0e0e0e;
+  padding: 50px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.proof-video h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+.proof-video p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.proof-video video {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.3);
+}
+
+.proof-video .legend {
+  display: block;
+  margin-top: 12px;
+  font-size: 12px;
+  opacity: 0.7;
+}
 
 
 /* MOBILE */
